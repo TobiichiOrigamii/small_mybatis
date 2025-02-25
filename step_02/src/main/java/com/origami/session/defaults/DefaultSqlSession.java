@@ -17,7 +17,7 @@ public class DefaultSqlSession implements SqlSession {
     private MapperRegistry mapperRegistry;
 
     public DefaultSqlSession(MapperRegistry mapperRegistry) {
-        this.mapperRegistry = new MapperRegistry();
+        this.mapperRegistry = mapperRegistry;
     }
 
 
