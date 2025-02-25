@@ -1,7 +1,5 @@
 package com.origami.test.dao;
 
-import com.origami.test.po.User;
-
 /**
  * @author Origami
  * @description
@@ -9,7 +7,7 @@ import com.origami.test.po.User;
  **/
 public interface IUserDao {
 
-    User queryUserInfoById(Long userId);
+    String queryUserInfoById(Long userId);
 
 
 }

@@ -19,7 +19,7 @@ import java.util.Date;
 public class User {
 
     private Long id;
-    private String userId;
+    private Long userId;
     private String userHead;
     private Date createTime;
     private Date updateTime;

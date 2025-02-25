@@ -32,7 +32,7 @@ public class apiTest {
         IUserDao userDao = sqlSession.getMapper(IUserDao.class);
 
         // 4.验证测试
-        String result = userDao.queryUserName("1111");
+        String result = userDao.queryUserInfoById(1111L);
         log.info("测试结果：{}",result);
 
     }
