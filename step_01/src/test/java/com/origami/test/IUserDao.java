@@ -7,7 +7,7 @@ package com.origami.test;
  **/
 public interface IUserDao {
 
-    String queryUserName(String userId);
+    String queryUserInfoById(String userId);
 
     Integer queryUserAge(String userId);
 
