@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<mapper namespace="com.origami.test.dao.IUserDao">
+
+
+    <select id="queryUserInfoById" parameterType="java.lang.Long" resultType="com.origami.test.po.User">
+        SELECT id, userId, userHead, createTime
+        FROM user
+        where id = #{id}
+    </select>
+
+
+</mapper>
+
